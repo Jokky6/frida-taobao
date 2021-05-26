@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "frida-taobao"
+version = "0.1.0"
+description = ""
+authors = ["Jokky6 <13801489449@163.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+frida = "^14.2.18"
+frida-tools = "^9.2.4"
+objection = "^1.11.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
